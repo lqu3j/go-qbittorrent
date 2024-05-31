@@ -25,4 +25,6 @@ type AddTorrentsOptions struct {
 	SequentialDownload bool `json:"sequentialDownload,omitempty"`
 	// Prioritize download first last piece. Possible values are true, false (default)
 	FirstLastPiecePrio bool `json:"firstLastPiecePrio,omitempty"`
+	// Tags, split by ','
+	Tags string `json:"tags,omitempty"`
 }
